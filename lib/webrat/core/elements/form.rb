@@ -120,7 +120,6 @@ module Webrat
           end
         }
         return output
-#        query_string.split('&').map {|query| { query.split('=').first => query.split('=').last } }
       end
     end
 
